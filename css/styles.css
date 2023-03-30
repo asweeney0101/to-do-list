@@ -1,21 +1,31 @@
 body {
-  background-color: rgba(6, 6, 64, 0.85);
+  background-color: rgba(213, 213, 238, 0.85);
+  font-size: 20px;
 }
 
 .container {
   margin: 0 auto;
-  background-color: rgb(42, 120, 203);
+  background-color: rgb(120, 241, 203);
   text-align: center;
   margin-top: 15%;
   border-radius: 15px;
   box-shadow: 5px 5px 15px 3px rgb(125, 125, 125);
   max-width: 600px;
-  color: rgb(218, 220, 223);
+  color: rgb(0, 1, 2);
   padding: 15px 15px;
 }
 
 form {
   display: inline-block;
+}
+
+ul {
+  line-height: 1.5;
+  list-style-type: none;
+}
+li:hover {
+  cursor: pointer;
+  transform: scale(1.05);
 }
 
 .strike {
